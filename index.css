@@ -91,6 +91,19 @@ body {
         color: var(--font-color);
         font-size: 1.2rem;
         font-family: "Sans-Serif";
+        display: inline;
+    }
+
+    .arrow-container {
+        display: flex;
+        align-items: center;
+        gap: 0.9rem;
+    }
+
+    .arrow-img {
+        height: 19px;
+        width: 19px;
+
     }
 
     .btn {
@@ -285,6 +298,18 @@ body {
         font-size: 0.8rem;
         font-family: "Sans-Serif";
         letter-spacing: 0.1rem;
+    }
+
+    .arrow-container {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .arrow-img {
+        height: 15px;
+        width: 15px;
+
     }
 
     .btn {
@@ -498,6 +523,18 @@ body {
 
 
         font-family: "Sans-Serif";
+    }
+
+    .arrow-container {
+        display: flex;
+        align-items: center;
+        gap: 0.3rem;
+    }
+
+    .arrow-img {
+        height: 10px;
+        width: 10px;
+
     }
 
     .btn {
